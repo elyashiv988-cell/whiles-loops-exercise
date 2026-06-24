@@ -55,5 +55,25 @@ while i <len(data):
     sum=sum+data[i]
     i=i+1
 print(sum)
-'''
+
 #10
+#1
+items = ['a', 'x', 'b', 'x', 'x']
+i=0
+while i < len(items):
+    items.remove("x")
+    i+=1
+print(items)
+# 2
+'''
+matrix = [[1, 2], [3, 4], [5, 6]]
+i=0
+
+while i<len(matrix):
+   
+    x=0
+    while x<len(matrix[i]):
+        print(matrix[i][x])
+        x+=1
+    i+=1
+    

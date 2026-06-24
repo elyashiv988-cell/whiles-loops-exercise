@@ -84,10 +84,20 @@ while i >=0:
     print(num[i])
     i=i-1
 # 4
-'''
+
 data = [10, 30, 55, 20, 80]
 i=0
 while i < len(data):
     if data[i]>=50:
         print(i)
+    i+=1
+# 5
+
+'''
+secret = 42 
+guesses = [10, 30 ,42]
+i=0
+while i <len(guesses):
+    if guesses[i]==secret:
+        print(i+1)
     i+=1

@@ -57,6 +57,15 @@ while i <len(data):
 print(sum)
 
 #10
+matrix= []
+n=10
+row=1
+while row<= n:
+    new_row=[]
+    z=1
+    while z <=n:
+        new_row.append(row*z)
+        
 #1
 items = ['a', 'x', 'b', 'x', 'x']
 i=0
@@ -93,7 +102,7 @@ while i < len(data):
     i+=1
 # 5
 
-'''
+
 secret = 42 
 guesses = [10, 30 ,42]
 i=0
@@ -101,3 +110,14 @@ while i <len(guesses):
     if guesses[i]==secret:
         print(i+1)
     i+=1
+'''
+# self learn:
+# 1 The first loop runs skipping to the next row and the second loop runs on each row.
+# 2 In the inner loop, it will immediately move to the next line, and in the outer loop, the command will stop the matrix.
+# 3 If I want to search for a specific value within the matrix
+# 4 When there is an invalid value in the matrix that I want to skip
+# 5 The loop will skip the value but continue immediately to the next value and all rows as usual.
+
+
+
+
